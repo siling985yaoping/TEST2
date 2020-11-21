@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TReport4 Version="5.3.16" DotMatrixReport="False" EngineOptions.DoublePass="True" IniFile="\Software\Fast Reports" OldStyleProgress="True" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43745.4392046644" ReportOptions.Description.Text="" ReportOptions.LastChange="43745.5169697569" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="cdsData1" DataSetName="cdsData1"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="@ËÎÌå" Font.Style="0" Orientation="poLandscape" PaperWidth="85" PaperHeight="54" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMemoView Name="Memo1" Left="68.23624" Top="25.23624" Width="94.48825" Height="34.01576268" Font.Charset="0" Font.Color="0" Font.Height="-21" Font.Name="ºÚÌå" Font.Style="1" ParentFont="False" Text="[cdsData1.&#34;EmpName&#34;]"/>
+    <TfrxMemoView Name="Memo2" Left="195.40167" Top="25.01577" Width="94.48825" Height="34.01576268" Font.Charset="0" Font.Color="0" Font.Height="-21" Font.Name="ºÚÌå" Font.Style="1" ParentFont="False" Text="[cdsData1.&#34;CardCode&#34;]"/>
+  </TfrxReportPage>
+  <TfrxDBDataset Name="cdsData1" UserName="cdsData1" CloseDataSource="False" FieldAliases.Text="" BCDToCurrency="False" PropData="05704C65667402000470546F700200"/>
+</TReport4>

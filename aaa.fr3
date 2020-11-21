@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TReport4 Version="5.3.16" DotMatrixReport="False" EngineOptions.DoublePass="True" IniFile="\Software\Fast Reports" OldStyleProgress="True" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41872.3839420023" ReportOptions.Description.Text="" ReportOptions.LastChange="43869.6293299074" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="cdsData1" DataSetName="cdsData1"/>
+    <item DataSet="cdsData2" DataSetName="cdsData2"/>
+    <item DataSet="cdsData3" DataSetName="cdsData3"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" Columns="2" ColumnWidth="105" ColumnPositions.Text="0&#13;&#10;105" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="199.41744" Left="0" Top="18.89765" Width="396.85065" Columns="1" ColumnWidth="0" ColumnGap="0" DataSet="cdsData1" DataSetName="cdsData1" RowCount="0">
+      <TfrxMemoView Name="Memo2" Left="107.04731" Top="20.44094" Width="147.40167" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-29" Font.Name="¿¬Ìå_GB2312" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="å·¥ ä½œ è¯"/>
+      <TfrxLineView Name="Line2" Left="5.77953" Top="188.19697" Width="272.12616" Height="0" Color="0" Frame.Typ="4" Frame.TopLine.Color="8388608" Frame.TopLine.Width="20"/>
+      <TfrxMemoView Name="Memo1" Left="112.16543" Top="111.91342" Width="158.74026" Height="26.45671" DataSet="cdsData1" DataSetName="cdsData1" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="ºÚÌå" Font.Style="1" ParentFont="False" Text="å§“å:[cdsData1.&#34;EmpName&#34;]"/>
+      <TfrxPictureView Name="Picture1" Left="5.77953" Top="29.33859" Width="102.04731" Height="128.50402" DataField="Ffile" DataSet="cdsData2" DataSetName="cdsData2" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxMemoView Name="Memo3" Left="112.16535189" Top="138.92919" Width="158.74026" Height="22.67718" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="ºÚÌå" Font.Style="1" ParentFont="False" Text="ç¼–å·:[cdsData1.&#34;CardCode&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="111.85838" Top="80.91342" Width="158.74026" Height="26.45671" DataSet="cdsData1" DataSetName="cdsData1" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="ºÚÌå" Font.Style="1" ParentFont="False" Text="éƒ¨é—¨:[cdsData1.&#34;DptName&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="111.06308" Top="53.7953" Width="158.74026" Height="22.67718" DataSet="cdsData1" DataSetName="cdsData1" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="ºÚÌå" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="æ±Ÿè‹é˜³å…‰é›†å›¢"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+  <TfrxDBDataset Name="cdsData1" UserName="cdsData1" CloseDataSource="False" FieldAliases.Text="" BCDToCurrency="False" PropData="05704C65667402000470546F700200"/>
+  <TfrxDBDataset Name="cdsData2" UserName="cdsData2" CloseDataSource="False" FieldAliases.Text="" BCDToCurrency="False" PropData="05704C65667402000470546F700200"/>
+  <TfrxDBDataset Name="cdsData3" UserName="cdsData3" CloseDataSource="False" FieldAliases.Text="" BCDToCurrency="False" PropData="05704C65667402000470546F700200"/>
+</TReport4>
